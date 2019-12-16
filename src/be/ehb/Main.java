@@ -15,6 +15,7 @@ public class Main {
         ArrayList<String> namenLijst = new ArrayList<>(Arrays.asList(namen));
 
         Collections.shuffle(namenLijst);
+        Collections.shuffle(namenLijst);
 
         try(FileWriter writer = new FileWriter("plakt.txt")){
             int length = namenLijst.size();
